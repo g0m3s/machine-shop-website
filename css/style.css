@@ -8,7 +8,8 @@
 
 body{
 
-    background-color: #3d3d3d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#cccccc)) no-repeat;
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
     margin: 0 auto;
     font-family: 'Anton', sans-serif;
     color: white;
@@ -57,7 +58,6 @@ a{
 
 #info0{
 
-    background-color: white;
     color: black;
     padding: 20px 0px;
 
@@ -69,7 +69,6 @@ a{
     justify-content: center;
     align-items: center;
     margin: 10px;
-    background-color: white;
     color: black;
 
 }
@@ -99,4 +98,8 @@ footer{
     margin: 0 auto;
     bottom: 0px;
 
+}
+.center{
+
+    margin: 0 auto;
 }
