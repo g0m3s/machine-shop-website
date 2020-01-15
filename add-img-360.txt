@@ -1,0 +1,5 @@
+ - acessar https://momento360.com/#media/
+
+ - clicar no icone da camera e fazer upload da foto
+
+ - ir em compartilhar, gerar um link e por ele num iframe

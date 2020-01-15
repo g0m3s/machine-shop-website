@@ -12,16 +12,8 @@ body{
     filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
     margin: 0 auto;
     font-family: 'Anton', sans-serif;
-    color: white;
-    
-}
-
-h2{
-
-    text-align: center;
-    padding: 0 10px;
-    margin: 80px ;
-
+    width: auto;
+        
 }
 
 nav{
@@ -34,21 +26,6 @@ nav{
 
 }
 
-#img-g{
-
-    width: 100%;
-    height: 400px;
-
-
-}
-
-#foto-logo{
-
-    height: 50px;
-    width: 50px;
-
-}
-
 a{
 
     text-decoration: none;
@@ -56,28 +33,11 @@ a{
     padding: 8px;
 }
 
-#info0{
-
-    color: black;
-    padding: 20px 0px;
-
-}
-
-#info1{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    color: black;
-
-}
-
 ul{
 
     list-style: none;
     display: inline-flex;
-
+    
 }
 
 li{
@@ -100,32 +60,24 @@ footer{
 
 }
 
+img {
 
-.center{
+    padding: 8px;
 
+}
+
+p{
+    align-items: center;
+    
+}
+
+.flex{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 600px;
     margin: 0 auto;
-}
-
-::-webkit-scrollbar{
-
-    width: 10px;
-
-}
-
-::-webkit-scrollbar-track{
-
-    background: #f1f1f1;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-    background: #888;
-
-}
-
-::-webkit-scrollbar-thumb:hover{
-
-    background: #555;
-
+        
 }

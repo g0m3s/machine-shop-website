@@ -6,8 +6,8 @@ body{
     filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
     margin: 0 auto;
     font-family: 'Anton', sans-serif;
-    color: black;
-    
+    color: white;
+    height: 100vh;
 }
 
 nav{
@@ -41,7 +41,17 @@ a{
     padding: 8px;
 }
 
-h1,h2{
+h1{
+    font-size: 30pt;
+}
+
+h3{
+
+    font-size: 20pt;
+
+}
+
+h1,h2,h3{
 
     text-align: center;
 

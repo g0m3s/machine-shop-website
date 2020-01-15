@@ -13,7 +13,8 @@ body{
     margin: 0 auto;
     font-family: 'Anton', sans-serif;
     color: white;
-    
+    font-size: 11pt;
+
 }
 
 h2{
@@ -60,7 +61,7 @@ a{
 
     color: black;
     padding: 20px 0px;
-
+    
 }
 
 #info1{

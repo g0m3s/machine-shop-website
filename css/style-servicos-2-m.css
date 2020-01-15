@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 *{
-
     margin: 0;
-
+    padding: 0;
 }
 
 body{
@@ -13,67 +12,11 @@ body{
     margin: 0 auto;
     font-family: 'Anton', sans-serif;
     color: white;
+    height: 100vh;
     
 }
 
-h2{
-
-    text-align: center;
-    padding: 0 10px;
-    margin: 80px ;
-
-}
-
-nav{
-
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 45px 150px;
-    font-size: 15pt;
-
-}
-
-#img-g{
-
-    width: 100%;
-    height: 400px;
-
-
-}
-
-#foto-logo{
-
-    height: 50px;
-    width: 50px;
-
-}
-
-a{
-
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-}
-
-#info0{
-
-    color: black;
-    padding: 20px 0px;
-
-}
-
-#info1{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    color: black;
-
-}
-
-ul{
+#lista-menu{
 
     list-style: none;
     display: inline-flex;
@@ -84,6 +27,44 @@ li{
 
     padding: 10px;
     color: white;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    text-align: ;
+}
+
+p{
+
+    text-align: center;
+
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+h2{
+
+    font-size: 25pt;
+
+}
+
+nav{
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 150px;
+    font-size: 15pt;
 
 }
 
@@ -100,11 +81,30 @@ footer{
 
 }
 
+#cromagem{
 
-.center{
+    margin-left: 30px;
 
-    margin: 0 auto;
 }
+
+
+.imgs-grandes{
+
+    left: 15px;
+    width: 500px;
+
+}
+
+.flex{
+
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    flex-wrap: wrap;
+    height: 75vh;
+    
+}
+
 
 ::-webkit-scrollbar{
 
